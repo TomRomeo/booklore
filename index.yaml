@@ -3,6 +3,20 @@ entries:
   booklore:
   - apiVersion: v2
     appVersion: 0.38.2
+    created: "2025-12-03T11:58:04.386073091Z"
+    dependencies:
+    - name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 24.0.0
+    description: A Helm chart for [Booklore](https://github.com/booklore-app/booklore)
+    digest: 5b4ce9e49009d0c3b569bdea93679e225425b2830e55661ab58a7bd8ee796599
+    name: booklore
+    type: application
+    urls:
+    - https://github.com/TomRomeo/booklore/releases/download/booklore-0.1.1/booklore-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.38.2
     created: "2025-12-03T11:12:17.420561334Z"
     dependencies:
     - name: mariadb
@@ -15,4 +29,4 @@ entries:
     urls:
     - https://github.com/TomRomeo/booklore/releases/download/booklore-0.1.0/booklore-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-03T11:12:17.420572424Z"
+generated: "2025-12-03T11:58:04.38608326Z"
