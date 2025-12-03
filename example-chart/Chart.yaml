@@ -25,5 +25,5 @@ appVersion: "0.38.2"
 
 dependencies:
   - name: mariadb
-    version: sha256-13dc2687238e5598909281e160f99739ecf9b63c514e73e688216455a4b7fa80
+    version: "24.0.0"
     repository: oci://registry-1.docker.io/bitnamicharts
